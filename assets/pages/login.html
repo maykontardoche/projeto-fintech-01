@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Zenius</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/logoZenius.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column min-vh-100">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="../../index.html">
+                    <img src="../images/logoZenius.png" alt="Logo Zenius" class="me-2"
+                        style="width: 40px; height: 40px;">
+                    <span>Zenius</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html"><i class="fas fa-briefcase"></i> Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html"><i class="fas fa-envelope"></i>
+                                Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Tela de Login -->
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="card shadow" style="width: 700px;">
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <img src="../images/logoZenius.png" alt="Logo Zenius" class="img-fluid mb-3"
+                            style="max-width: 100px; max-height: 100px;">
+                        <h3>Bem-vindo de volta!</h3>
+                        <p class="text-muted">Faça login para continuar com seus serviços financeiros.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha"
+                                required>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label class="form-check-label" for="remember">Lembrar-me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="recuperar-senha.html" class="text-primary">Esqueceu sua senha?</a>
+                    </div>
+                    <hr>
+                    <div class="text-center mt-3">
+                        <p>Não tem uma conta? <a href="cadastro.html" class="text-primary">Cadastre-se agora</a></p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <p>Ou faça login com:</p>
+                        <div>
+                            <a href="#" class="btn btn-outline-primary btn-sm me-2"><i class="fab fa-google"></i>
+                                Google</a>
+                            <a href="#" class="btn btn-outline-primary btn-sm"><i class="fab fa-facebook"></i>
+                                Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
