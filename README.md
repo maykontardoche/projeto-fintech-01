@@ -94,7 +94,7 @@ A estrutura do projeto está organizada da seguinte forma:
 
 1. **Clone o Repositório**:
    ```bash
-   git clone https://github.com/maykontardoche/projeto-Zenius-fiap.git
+   git clone https://github.com/maykontardoche/projeto-fintech-01.git
    cd Zenius
    ```
 
